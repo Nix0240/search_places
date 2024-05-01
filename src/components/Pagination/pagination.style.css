@@ -1,0 +1,28 @@
+.pagination {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination button {
+  padding: 5px 10px;
+  margin: 0 5px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.pagination button.active {
+  background-color: #007bff;
+  color: #fff;
+  border-color: #007bff;
+}
+
+.limit-input {
+  margin-left: 20px;
+}
+
+.limit-input span {
+  margin-right: 5px;
+}
